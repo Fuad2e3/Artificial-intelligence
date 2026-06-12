@@ -1,4 +1,18 @@
-# Artificial Intelligence: GreenMind Assistant & Classic AI Solutions
+<h1 align="center">Artificial Intelligence: GreenMind Assistant & Classic AI Solutions</h1>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Language-Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Language" />
+  <img src="https://img.shields.io/badge/Framework-LangChain-121212?style=flat-square&logo=chainlink&logoColor=white" alt="Framework" />
+  <img src="https://img.shields.io/badge/AI-Qwen_2.5-5865F2?style=flat-square&logo=huggingface&logoColor=white" alt="AI" />
+  <img src="https://img.shields.io/badge/Database-ChromaDB-FF4B4B?style=flat-square" alt="Database" />
+  <img src="https://img.shields.io/badge/License-MIT-yellow?style=flat-square" alt="License" />
+</p>
+
+<p align="center">
+  <i>"Empowering intelligence through document-based retrieval and algorithmic excellence."</i>
+</p>
+
+---
 
 Welcome to the **Artificial Intelligence** repository! This project serves as a dual-purpose AI collection, featuring a modern **RAG (Retrieval-Augmented Generation)** based Personal Assistant and a comprehensive library of **Classic AI Algorithm Solutions**.
 
