@@ -13,7 +13,7 @@
 
 ---
 
-[Explore GreenMind](#-greenmind-your-personal-ai-assistant) • [Classic Solvers](#-classic-ai-solutions) • [Project Structure](#-project-structure) • [Getting Started](#-getting-started)
+[Explore GreenMind](#-greenmind-your-personal-ai-assistant) • [Classic Solvers](#-classic-ai-solutions) • [Project Structure](#-project-structure)
 
 </div>
 
@@ -70,31 +70,11 @@ Artificial-intelligence/
 
 ---
 
-## 🚀 Getting Started
-
-### 1. Clone the repository
-```bash
-git clone https://github.com/Fuad2e3/Artificial-intelligence.git
-cd Artificial-intelligence
-```
-
-### 2. Run GreenMind Assistant
-Open `GreenMind_Assistant/GreenMind_AI.ipynb` in Google Colab or VS Code Jupyter Notebook.
-
-### 3. Run Classical Solvers
-```bash
-python Classic_AI_Solutions/Search_Algorithms/topology_bfs.py
-```
-
----
-
 ## 📄 License
 Distributed under the MIT License. See `LICENSE` for more information.
 
 <div align="center">
 
-**Developed with ❤️ by Fuad**  
-*Developed by Softece*  
-*Artificial Intelligence | Green University of Bangladesh*
+**Developed ❤️ by Softece**
 
 </div>
