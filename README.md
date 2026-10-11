@@ -1,63 +1,58 @@
-<h1 align="center">Artificial Intelligence: GreenMind Assistant & Classic AI Solutions</h1>
+<div align="center">
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Language-Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Language" />
-  <img src="https://img.shields.io/badge/Framework-LangChain-121212?style=flat-square&logo=chainlink&logoColor=white" alt="Framework" />
-  <img src="https://img.shields.io/badge/AI-Qwen_2.5-5865F2?style=flat-square&logo=huggingface&logoColor=white" alt="AI" />
-  <img src="https://img.shields.io/badge/Database-ChromaDB-FF4B4B?style=flat-square" alt="Database" />
-  <img src="https://img.shields.io/badge/License-MIT-yellow?style=flat-square" alt="License" />
-</p>
+# 🧠 Artificial Intelligence: GreenMind RAG & Classical Solvers
+### **Next-Gen Retrieval-Augmented Generation & Graph Heuristic Search Engine**
 
-<p align="center">
-  <i>"Empowering intelligence through document-based retrieval and algorithmic excellence."</i>
-</p>
+[![Platform](https://img.shields.io/badge/Language-Python_3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+[![Framework](https://img.shields.io/badge/Framework-LangChain-121212?style=for-the-badge&logo=chainlink&logoColor=white)](https://langchain.com)
+[![AI](https://img.shields.io/badge/LLM-Qwen_2.5-5865F2?style=for-the-badge&logo=huggingface&logoColor=white)](https://huggingface.co/Qwen)
+[![Database](https://img.shields.io/badge/Vector_DB-ChromaDB-FF4B4B?style=for-the-badge)](https://www.trychroma.com/)
+[![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 
----
-
-Welcome to the **Artificial Intelligence** repository! This project serves as a dual-purpose AI collection, featuring a modern **RAG (Retrieval-Augmented Generation)** based Personal Assistant and a comprehensive library of **Classic AI Algorithm Solutions**.
+**Empowering intelligence through document-based semantic retrieval, local vector embeddings, and classical AI algorithms.**
 
 ---
 
-## 🤖 GreenMind: Your Personal AI Assistant
+[Explore GreenMind](#-greenmind-your-personal-ai-assistant) • [Classic Solvers](#-classic-ai-solutions) • [Project Structure](#-project-structure) • [Getting Started](#-getting-started)
 
-**GreenMind** is a state-of-the-art AI assistant project designed to leverage the power of Large Language Models (LLMs) combined with document-based knowledge retrieval.
-
-### 🌟 Key Features
-- **Retrieval-Augmented Generation (RAG)**: Combines retrieved information from your own documents with advanced language modeling.
-- **Large Language Model**: Powered by the **Qwen2.5 7B** model.
-- **Efficient Embedding**: Uses **Qwen3-Embedding-0.6B** for fast and accurate semantic search.
-- **Smart Retrieval**: Utilizes **LangChain** retrievers to act as a "Smart Librarian," finding relevant data within a large corpus of unstructured text.
-
-### 🛠️ Technologies & Tools
-- **Language**: Python
-- **Frameworks**: LangChain, Transformers, PyTorch
-- **Vector Database**: ChromaDB
-- **PDF Processing**: PyPDF
-- **Model**: Qwen2.5 (LLM) & Qwen3 (Embeddings)
-
-> [!NOTE]
-> You can find the implementation in the `GreenMind_Assistant/` directory.
+</div>
 
 ---
 
-## 🧠 Classic AI Solutions
+## 📖 Overview
+Welcome to the **Artificial Intelligence** research and engineering repository! This project serves a dual purpose: an enterprise-ready **RAG (Retrieval-Augmented Generation)** knowledge assistant named **GreenMind**, alongside a rigorous collection of **Classical AI Algorithm Implementations** covering uninformed, informed, and adversarial search strategies.
 
-This section of the repository contains a variety of Python implementations for fundamental AI topics, ranging from basic programming exercises to complex search algorithms.
+---
 
-### 📂 Categorized Solutions
+## 🤖 GreenMind: Intelligent Document Assistant
 
-#### 🔍 Search & Optimization Algorithms
-Located in `Classic_AI_Solutions/Search_Algorithms/`:
-- **BFS & DFS**: Topological sorting and grid-based pathfinding.
-- **IDDFS**: Iterative Deepening Depth-First Search for dynamic graphs.
-- **Pathfinding**: Finding paths from source to destination with obstacle handling.
-- **Graph Theory**: Adjacency lists and parent tracking implementations.
+**GreenMind** is a local-first RAG pipeline designed to synthesize deep semantic answers from custom PDF documentation without hallucination.
 
-#### 🐍 Basic Python AI Exercises
-Located in `Classic_AI_Solutions/Basic_Python_Exercises/`:
-- **Core Logic**: Factorials, Fibonacci sequences, Odd/Even detection.
-- **Data Structures**: List and Tuple manipulations, range indexing.
-- **Math-based AI**: Primality tests, largest numbers, and summation parameters.
+### 🌟 Key Highlights
+- **Retrieval-Augmented Generation (RAG):** Context injection pipeline querying ChromaDB semantic vector spaces.
+- **Large Language Model:** Powered by the open-weights **Qwen2.5 7B** instruction model.
+- **Efficient Dense Embeddings:** Employs **Qwen3-Embedding-0.6B** for high-precision vector cosine similarity.
+- **LangChain Document Ingestion:** Chunking, recursive character splitting, and semantic retrieval wrappers.
+
+### 🛠️ Tech Stack & Libraries
+- **Core:** Python 3.10+, PyTorch, Hugging Face Transformers
+- **RAG & Chains:** LangChain Community & Core
+- **Vector Index:** ChromaDB
+- **PDF Extraction:** PyPDF, PDFPlumber
+
+---
+
+## 🧠 Classic AI Algorithm Solutions
+
+Comprehensive Python implementations of fundamental computer science and artificial intelligence algorithms:
+
+### 📂 Categorized Modules
+- **Graph & Grid Search (`Classic_AI_Solutions/Search_Algorithms/`):**
+  - **BFS & DFS:** Uninformed graph traversal and topological sorting.
+  - **IDDFS:** Iterative Deepening Depth-First Search with memory efficiency.
+  - **Grid Pathfinding:** 2D matrix traversal with dynamic obstacle detection.
+- **Core Mathematical Logic (`Classic_AI_Solutions/Basic_Python_Exercises/`):**
+  - Factorial dynamic memoization, Fibonacci sequences, primality testing, and array permutations.
 
 ---
 
@@ -65,41 +60,41 @@ Located in `Classic_AI_Solutions/Basic_Python_Exercises/`:
 
 ```text
 Artificial-intelligence/
-├── GreenMind_Assistant/           # Dedicated folder for the AI Assistant
-│   └── GreenMind_AI.ipynb         # Main RAG Pipeline Notebook
-├── Classic_AI_Solutions/          # Collection of AI topic solutions
-│   ├── Basic_Python_Exercises/    # Core Python & Logic exercises
-│   └── Search_Algorithms/         # Pathfinding & Graph search scripts
-└── README.md                      # Project documentation
+├── GreenMind_Assistant/           # Document RAG Assistant
+│   └── GreenMind_AI.ipynb         # Interactive Jupyter / Colab RAG pipeline
+├── Classic_AI_Solutions/          # Fundamental AI search & heuristics
+│   ├── Basic_Python_Exercises/    # Core logic & mathematical algorithms
+│   └── Search_Algorithms/         # Pathfinding, BFS, DFS, and IDDFS scripts
+└── README.md                      # System documentation
 ```
 
 ---
 
 ## 🚀 Getting Started
 
-1.  **Clone the repository**:
-    ```bash
-    git clone https://github.com/Fuad2e3/Artificial-intelligence.git
-    cd Artificial-intelligence
-    ```
+### 1. Clone the repository
+```bash
+git clone https://github.com/Fuad2e3/Artificial-intelligence.git
+cd Artificial-intelligence
+```
 
-2.  **For GreenMind Assistant**:
-    - Open `GreenMind_Assistant/GreenMind_AI.ipynb` in Google Colab or Jupyter Lab.
-    - Follow the notebook cells to install dependencies and run the RAG pipeline.
+### 2. Run GreenMind Assistant
+Open `GreenMind_Assistant/GreenMind_AI.ipynb` in Google Colab or VS Code Jupyter Notebook.
 
-3.  **For Classic Solutions**:
-    - Navigate to `Classic_AI_Solutions/` and run any script using Python:
-    ```bash
-    python Classic_AI_Solutions/Search_Algorithms/topology_bfs.py
-    ```
+### 3. Run Classical Solvers
+```bash
+python Classic_AI_Solutions/Search_Algorithms/topology_bfs.py
+```
 
 ---
 
 ## 📄 License
-
 Distributed under the MIT License. See `LICENSE` for more information.
 
-<p align="center">
-  Developed with ❤️ by <b>Fuad</b><br>
-  <i>Artificial intelligence | Green University of Bangladesh</i>
-</p>
+<div align="center">
+
+**Developed with ❤️ by Fuad**  
+*Developed by Softece*  
+*Artificial Intelligence | Green University of Bangladesh*
+
+</div>
